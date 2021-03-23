@@ -1,0 +1,3 @@
+<?php $flag='flag{awd-OTIyOTc2+v}';?>
+<?php $flag='flag{awd-MjQ4NTk=+v}';?>
+<?php $flag='flag{awd-NjYzMjI5hhh}';?>

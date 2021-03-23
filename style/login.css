@@ -1,0 +1,42 @@
+body {
+    background: url('login.jpg');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    color: #FFA939;
+    font-family: "Microsoft YaHei";
+}
+.title {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 30px;
+}
+.center {
+    margin-top: 50px;
+    text-align: center;
+}
+input {
+    margin-bottom: 30px;
+    width: 500px;
+    height: 30px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+    outline: none;
+    text-indent: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 1px solid #FCF1D8;
+    color: #ffffff;
+}
+.button_row {
+    text-align: center;
+}
+button {
+    outline: none;
+    text-decoration: none;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}

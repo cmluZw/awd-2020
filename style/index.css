@@ -1,0 +1,154 @@
+body {
+    background: url('index.jpg');
+    /*background-color: rgb(126, 104, 77);*/
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    color: #122D4A;
+    font-family: "Microsoft YaHei";
+}
+.description {
+    margin-top: 150px;
+    margin-left: 200px;
+    width: 300px;
+    height: 400px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.4);
+    overflow: hidden;
+}
+.info {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    color:white;
+}
+.info span {
+    margin-bottom: 10px;
+}
+.description p {
+    text-align: center;
+    font-size: 20px;
+    color:white;
+}
+.form {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.button_list {
+    margin-top: 150px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+}
+button {
+    margin-top: 50px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.8);
+    outline: none;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    color: #122D4A;
+}
+button:active {
+    background: rgba(255, 255, 255, 1);
+}
+#join{
+    margin-top: 100px;
+    width: 700px;
+    height: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    border: 1px solid white;
+    text-align: center;
+}
+#create{
+    margin-top: 70px;
+    padding-bottom: 50px;
+    width: 700px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    border: 1px solid white;    
+    display: flex;
+    flex-direction: column;
+}
+.code_input {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.title {
+    color: #122D4A;
+    font-size: 22px;
+}
+input {
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-indent: 10px;
+    font-size: 20px;
+    color: #122D4A;
+    background: rgba(255, 255, 255, 0.8);
+}
+.submit {
+    margin-left: 300px;
+    width: 100px;
+    padding: 5px;
+}
+.label_tip {
+    color: #122D4A;
+    margin-left: 100px;
+    width: 150px;
+    font-size: 19px;
+}
+.input_name {
+    color: #122D4A;
+    text-indent: 10px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+span.tip{
+    margin-top: 10px;
+    font-size: 15px;
+    color:#122D4A ;
+}
+.active {
+    color: #122D4A;
+}
+span.select {
+    font-size: 17px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.submit_create {
+    width: 100px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 300px;
+}

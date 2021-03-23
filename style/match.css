@@ -1,0 +1,234 @@
+::-webkit-scrollbar  
+{  
+  width: 5px;  
+}
+  
+/*定义滚动条轨道 内阴影+圆角*/  
+::-webkit-scrollbar-track  
+{  
+  border-radius: 10px;  
+  background-color: rgba(0,0,0,0.1); 
+} 
+  
+/*定义滑块 内阴影+圆角*/  
+::-webkit-scrollbar-thumb  
+{  
+  border-radius: 10px;  
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+  background-color: rgba(0,0,0,0.1);
+}
+
+
+body {
+    background: url('match.jpg');
+    /*background-color:#202744;*/
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Microsoft YaHei";
+}
+
+h1 {
+    text-align: center;
+    font-size: 400%;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.tip {
+    width: 240px;
+    height: 350px;
+    padding: 20px;
+    border: 1px solid #993434;
+    border-radius: 2px;
+    margin-left: 70px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.title {
+    text-align: center;
+    font-size: 120%;
+}
+p {
+    line-height: 30px;
+    word-wrap: break-word;
+}
+.info {
+    border-radius: 2px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.range_box {
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 40px;
+}
+.range_box label{
+    font-size: 30px;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: -5px;
+}
+.first {
+    width: 25px;
+    height: 25px;
+    margin-bottom: -5px;
+}
+.divider {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.line {
+    height: 1px;
+    flex-grow: 1;
+    background-color: white;  
+}
+.time{
+    margin: 0 5px;
+}
+.range{
+    margin-top: 20px;
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, .1);
+}
+.range_th{
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    background-color: #993434;
+}
+.range_th span,
+.range_td span{
+    width: 70px;
+    padding: 10px 30px;
+}
+span.num{
+    width: 40px;
+}
+span.name{
+    width: 100px;
+}
+.range_td{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    border-radius: 2px;
+    background-color: rgb(3, 3, 5);
+    box-shadow: 3px 3px 3px rgba(222, 190, 131, 0.5);
+}
+.one{
+    background-color: rgb(18, 15, 53);
+    color: #ffffff;
+}
+.two{
+    background-color: rgb(14, 28, 65);
+    color: #ffffff;
+}
+.three{
+    background-color: rgb(36, 30, 63);
+    color: #ffffff;
+}
+.info_list {
+    display: flex;
+    flex-direction: column;
+}
+.info_list span {
+    border: 1px solid #C4C4C4;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    color: #AD0F0F;
+    background-color: #DEDEDE;
+}
+span.th{
+    background-color: #993434;
+    color: white;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.submit_box {
+    width: 250px;
+    padding: 40px;
+    height: 120px;
+    margin-bottom: 70px;
+    border: 1px solid #993434;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, .2);
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.row span {
+    width: 70px;
+}
+input {
+    text-decoration: none;
+    outline: none;
+    border: 1px solid white;
+    text-indent: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    border-width: 0 0 1px 0;
+    color: white;
+}
+.submit {
+    text-align: center;
+}
+.submit button {
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #993434;
+    color: white;
+}
+button:hover{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.17);
+}
+
+.time-item {
+    margin-top: 75px;
+}
+.time-item strong {
+    background: #993434;
+    color: #DEDEDE;
+    line-height: 49px;
+    font-size: 25px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius:5px;
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.5);
+}
+#day_show {
+    float:left;
+    line-height:49px;
+    color:#DEDEDE;
+    font-size: 25px;
+    margin:0 10px;
+}
+.item-title .unit {
+    background: none;
+    line-height: 49px;
+    font-size: 24px;
+    padding: 0 10px;
+    float: left;
+}
