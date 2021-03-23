@@ -27,7 +27,7 @@ python stop.py
 清理docker下的sh文件及已存在的docker容器
 
 将awd.sql导入mysql数据库
-将awd-lastest.tar导入docker镜像
+将awd-lastest.zip解压，将zip里面的awd-lastest.tar导入docker镜像
 
 由于这里只是核心部分，所以暂不提供注册，如有需要，请自行到数据库文件里的user表中添加用户，team表中添加team，用例已在数据库文件中给出
 
